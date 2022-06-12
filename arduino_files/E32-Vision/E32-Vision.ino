@@ -39,10 +39,10 @@
 #endif
 
 // wifi network name
-#define SSID1 "CLARO1_1BD04E"
+#define SSID1 "***"
 
 // wifi network password
-#define PWD1 "832W0hJSFc"
+#define PWD1 "***"
 
 
 OV2640 cam;
