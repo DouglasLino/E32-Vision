@@ -1,13 +1,6 @@
 <p align="center">
-    <span>
-      <a href="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fk68EIVrPdLCVPu4257mG%2Fuploads%2Fp7VuXDdA1Ua04wq6q6iE%2Fproyectofinal.gif?alt=media&token=fc0bed23-3c4a-4a0a-96dc-2cb3e9b76131" width="500" alt="e32-vision" /></a>
-    </span>
-    <br/>
-    <span>
-      <img alt="" src="https://img.shields.io/github/license/DouglasLino/E32-Vision">
-    </span>
+  <img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fk68EIVrPdLCVPu4257mG%2Fuploads%2Fp7VuXDdA1Ua04wq6q6iE%2Fproyectofinal.gif?alt=media&token=fc0bed23-3c4a-4a0a-96dc-2cb3e9b76131" width="500" title="e32-vision">
 </p>
-
 
 ### Tecnologías
 - [Arduino](https://www.arduino.cc/ "Arduino"): Las tecnologías a usar sería primeramente la parte de Arduino ,siendo la parte principal.
@@ -29,8 +22,5 @@
 Toda la documentación relacionada al proyecto la puedes encontrar [aqui](https://00018318.gitbook.io/e32-vision/ "aqui"):
 
 <p align="center">
-    <span>
-      <a href="https://www.freelogovectors.net/svg10/gitbook_logo-freelogovectors.net_.svg" width="500" alt="e32-vision" /></a>
-    </span>
-    <br/>
+      <a href="https://00018318.gitbook.io/e32-vision/" target="_blank"><img src="https://www.freelogovectors.net/svg10/gitbook_logo-freelogovectors.net_.svg" width="500" alt="e32-vision" /></a>
 </p>
