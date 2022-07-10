@@ -9,7 +9,7 @@
 
 
 
-### Tecnologías
+# Tecnologías
 - [Arduino](https://www.arduino.cc/ "Arduino"): Las tecnologías a usar sería primeramente la parte de Arduino ,siendo la parte principal.
 - [Arduino-cli](https://www.arduino.cc/pro/cli "Arduino-cli"): Herramienta de línea de comandos que contiene todo lo necesario para el ecosistema Arduino, con la finalidad de instalar automaticamente el codigo al ESP32-CAM
 - C++: El lenguaje de programación sería C++ que es el por defecto de arduino
