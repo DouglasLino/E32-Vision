@@ -22,7 +22,7 @@
 	- Librería [WiFi](https://www.arduino.cc/reference/en/libraries/wifi/ "WiFi")
 	- Libreria [WebServer](https://www.arduino.cc/reference/en/libraries/wifi/ "WebServer") para el servidor web
 	- Librería [WiFiClient](https://www.arduino.cc/reference/en/libraries/wifi/ "WiFiClient") para el cliente
-  - Libreria [MapProvider] (https://www.mapbox.com/ "MapBox") Proveedor de mapas en linea para mostrar la ubicacion de la camara
+  - Libreria [MapProvider](https://www.mapbox.com/ "MapBox") Proveedor de mapas en linea para mostrar la ubicacion de la camara
 	- [pyngrok](https://pypi.org/project/pyngrok/ "pyngrok") para un mejor manejo de la herramienta ngrok
 	- [paho-mqtt](https://pypi.org/project/paho-mqtt/ "paho-mqtt"): proporciona un cliente para mosquitto.
 
