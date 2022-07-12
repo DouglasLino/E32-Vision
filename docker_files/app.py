@@ -18,21 +18,13 @@ print(public_url)                                         # Displaying the ngrok
 onlyUrl = str(public_url).split()[1]
 
 #------------------------------------- Modificacion del archivo -------------------------------------
-localizacion = subprocess.Popen("./whereami", stdout=subprocess.PIPE)
-coordenadas = localizacion.stdout.read()
-# str(coordenadas)
-# print(coordenadas)
+coordenadas = subprocess.Popen("curl ipinfo.io/loc", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
 
-
-characters = "'\LAT:()abcdefghijklmnopqrstubwxyz "
+characters = "'\Labcdefghijklmnopqrstubwxyz "
 for x in range(len(characters)):
     coordenadas = str(coordenadas).replace(characters[x],"")
 
-size = len(coordenadas)
-mod_string = coordenadas[:size - 27]
-coordenada_exacta = mod_string[:9] + "," + mod_string[9:]
-print(coordenada_exacta)
-print("se a modificado el archivo addsource.js")
+print(coordenadas)
 
 # Escribir el archivo
 f = open ('addsource.js','w')
@@ -50,7 +42,7 @@ f.write('\'icon\': \'attraction-15\',\n')
 f.write('},\n')
 f.write('\'geometry\': {\n')
 f.write('\'type\': \'Point\',\n')
-f.write('\'coordinates\':'+" ["+coordenada_exacta+"]"+'\n')
+f.write('\'coordinates\':'+" ["+str(coordenadas)+"]"+'\n')
 f.write('}\n')
 f.write('}\n')
 f.write(']\n')
@@ -59,6 +51,7 @@ f.write('});\n')
 
 f.close()
 
+print("se a modificado el archivo addsource.js")
 # -----------------------------------
 
 
