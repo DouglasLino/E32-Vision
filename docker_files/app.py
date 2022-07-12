@@ -98,7 +98,8 @@ f.write('</script>\n')
 f.write('</body>\n')
 f.close()
 print("se a modificado el archivo addsource.js")
-
+os.system("cp /app/index.html /var/www/html/index.html")
+os.system("/etc/init.d/apache2 restart")
 # -----------------------------------
 
 
