@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /app
-python3 app.py -var
+python3 -u app.py -var
 
